@@ -1,0 +1,23 @@
+{
+    "name": "super-agent",
+    "version": "1.0.0",
+    "description": "AIOX Core + Awesome Claude Code Subagents - Unified AI Agent Framework",
+    "main": "integration/orchestrator.js",
+    "scripts": {
+          "setup": "bash setup.sh",
+          "dev": "cd dashboard && npm run dev",
+          "build": "cd dashboard && npm run build",
+          "start": "cd dashboard && npm start",
+          "agents:list": "node integration/orchestrator.js --list",
+          "agents:activate": "node integration/orchestrator.js --activate",
+          "squads:list": "node integration/squad-builder.js --list",
+          "squads:create": "node integration/squad-builder.js --create"
+    },
+    "keywords": ["ai", "agents", "aiox", "claude", "subagents", "orchestration", "fullstack"],
+    "author": "Cloud963",
+    "license": "MIT",
+    "repository": {
+          "type": "git",
+          "url": "https://github.com/Cloud963/super-agent.git"
+    }
+}
