@@ -1,0 +1,24 @@
+{
+    "version": "1.0.0",
+    "agents": {
+          "aiox": [
+                  {"id": "aiox-master", "role": "Orchestration master", "phase": "meta"},
+                  {"id": "analyst", "role": "Business analysis and PRD", "phase": "planning"},
+                  {"id": "pm", "role": "Product management", "phase": "planning"},
+                  {"id": "architect", "role": "System design", "phase": "planning"},
+                  {"id": "ux-expert", "role": "UX design", "phase": "planning"},
+                  {"id": "sm", "role": "Sprint management", "phase": "development"},
+                  {"id": "dev", "role": "Implementation", "phase": "development"},
+                  {"id": "qa", "role": "Quality assurance", "phase": "development"},
+                  {"id": "devops", "role": "CI/CD and infrastructure", "phase": "development"}
+          ],
+          "claude": {
+                  "core-dev": ["api-designer", "backend-developer", "frontend-developer", "fullstack-developer"],
+                  "languages": ["typescript-pro", "python-pro", "rust-engineer", "react-specialist", "nextjs-developer"],
+                  "infrastructure": ["terraform-engineer", "kubernetes-specialist", "cloud-architect", "docker-expert"],
+                  "quality": ["security-auditor", "penetration-tester", "performance-engineer", "code-reviewer"],
+                  "data-ai": ["ml-engineer", "data-scientist", "llm-architect", "mlops-engineer"],
+                  "meta": ["workflow-orchestrator", "multi-agent-coordinator", "task-distributor"]
+          }
+    }
+}
